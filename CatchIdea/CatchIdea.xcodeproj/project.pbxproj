@@ -15,6 +15,9 @@
 		9EBB8C1F28A4B65D009FB98B /* FilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBB8C1E28A4B65D009FB98B /* FilesView.swift */; };
 		9EBB8C2328A4B6D1009FB98B /* IdeaCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBB8C2228A4B6D1009FB98B /* IdeaCircle.swift */; };
 		9EBB8C2528A4B6D7009FB98B /* IdeaTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBB8C2428A4B6D7009FB98B /* IdeaTree.swift */; };
+		9EBB8C2728A4D9E2009FB98B /* TouchDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBB8C2628A4D9E2009FB98B /* TouchDirection.swift */; };
+		9EBB8C2928A4D9FC009FB98B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBB8C2828A4D9FC009FB98B /* Extensions.swift */; };
+		9EBB8C2B28A4DDAD009FB98B /* CircleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBB8C2A28A4DDAD009FB98B /* CircleManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		9EBB8C1E28A4B65D009FB98B /* FilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesView.swift; sourceTree = "<group>"; };
 		9EBB8C2228A4B6D1009FB98B /* IdeaCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaCircle.swift; sourceTree = "<group>"; };
 		9EBB8C2428A4B6D7009FB98B /* IdeaTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaTree.swift; sourceTree = "<group>"; };
+		9EBB8C2628A4D9E2009FB98B /* TouchDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchDirection.swift; sourceTree = "<group>"; };
+		9EBB8C2828A4D9FC009FB98B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9EBB8C2A28A4DDAD009FB98B /* CircleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,8 @@
 			children = (
 				9EBB8C2428A4B6D7009FB98B /* IdeaTree.swift */,
 				9EBB8C2228A4B6D1009FB98B /* IdeaCircle.swift */,
+				9EBB8C2628A4D9E2009FB98B /* TouchDirection.swift */,
+				9EBB8C2828A4D9FC009FB98B /* Extensions.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +97,7 @@
 		9EBB8C1828A4B1B1009FB98B /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				9EBB8C2A28A4DDAD009FB98B /* CircleManager.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -175,6 +184,9 @@
 			files = (
 				9EBB8C2528A4B6D7009FB98B /* IdeaTree.swift in Sources */,
 				9EBB8C1F28A4B65D009FB98B /* FilesView.swift in Sources */,
+				9EBB8C2728A4D9E2009FB98B /* TouchDirection.swift in Sources */,
+				9EBB8C2B28A4DDAD009FB98B /* CircleManager.swift in Sources */,
+				9EBB8C2928A4D9FC009FB98B /* Extensions.swift in Sources */,
 				9EBB8C2328A4B6D1009FB98B /* IdeaCircle.swift in Sources */,
 				9EBB8C0A28A4B0F3009FB98B /* CatchIdeaApp.swift in Sources */,
 				9EBB8C1D28A4B657009FB98B /* SketchView.swift in Sources */,

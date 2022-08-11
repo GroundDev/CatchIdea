@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct IdeaTree {
+    private let nameOfSketch: String
+    private let dateOfCreation: Date
+    private let rootCircle: IdeaCircle?
+    
+}
